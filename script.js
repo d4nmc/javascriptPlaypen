@@ -280,20 +280,50 @@
 
 for (let a = 1; a <= 100; a++) {
     if ((a%3 == 0) && (a%5 ==0)) {
-        console.log(a);
-        console.log("IS A FIZZBUZZ");
+        console.log();
+        console.log(a + " IS A FIZZBUZZ");
+        console.log();
         
 }
     else if (a%3 == 0)    {
-        console.log(a);
-        console.log("Is a FIZZY BOY");
+        console.log();
+        console.log(a + " Is a FIZZY BOY");
+        console.log();
 }   
     else if (a%5 == 0)  {
-            console.log(a);
-            console.log("Is a BUZZY BARSTEWARD");
+        console.log();    
+        console.log(a + " Is a BUZZY BARSTEWARD");
+        console.log();
 }
          else {
                 console.log(a)
             } 
 
     }
+
+// DAVROS SOLUTION
+// let num = 1;
+// for (let i=0; i<100;i++) {
+//     if ((num%3 == 0) && (num%5 == 0)) {
+//         console.log(`FizzBuzz`)
+//     }
+//     else if (num%5 == 0) {
+
+//         console.log(`Buzz`);
+
+//     }
+
+//     else if (num%3 == 0) {
+
+//         console.log(`Fizz`)
+//     }
+
+//     else {
+
+//         console.log(num);
+//     }
+    
+//     num++;
+  
+    
+//     }
