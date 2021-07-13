@@ -170,13 +170,14 @@
 //   console.log(`a = ${a}`);
 // }
 
-for (let a = 100; a <= 200; a++) {
-    if (a != 201) {    
-    console.log(`A is = to the number ${a} so keep counting!`);
-}else {
-        console.log('You have reached the last number');
-  }
-}
+// for (let a = 100; a <= 200; a++) {
+//     if (a != 200) {    
+//     console.log(`A is = to the number ${a} so keep counting!`);
+//     }else {
+//         console.log('You have reached the last number');
+//   }
+// }
+
 // EXERCISE 2
 // try to solve it with a for loop
 
@@ -198,8 +199,6 @@ for (let a = 100; a <= 200; a++) {
 //         }
 //     }
     
-
-
 // EXERCISE 3
 // 
 
@@ -209,5 +208,36 @@ for (let a = 100; a <= 200; a++) {
 //     }
 //  }  
 
-//EXERCISE 4
+// EXERCISE 4
 // Do for loops for all existing loop examples
+
+// EXERCISE 5
+// Write a switch case statement which uses the current day as its        expression and matches with the relevant case. Criteria:
+
+//     Omit a break statement if it is a weekday, until the last day
+//     Use a default case to handle an invalid range.
+
+let now = new Date(); 
+let day = now.getDay();
+switch (day) {
+  case 0:
+    console.log(`It's Sunday`);
+    break;
+  case 6:
+    console.log(`It's Saturday`);
+    break;
+  case 1:
+    console.log(`It's Monday`);
+    console.log('Nobody likes today')
+    break;
+  case 2:  
+  case 3:
+  case 4:
+  case 5:
+    console.log(`It's a weekday`);
+    console.log('Another day another dollar')
+    break;
+  default:
+    console.log(`That's not a day!`);
+    break;
+}
