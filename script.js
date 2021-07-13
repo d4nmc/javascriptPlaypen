@@ -278,28 +278,28 @@
 // cant get (a) to show in any of FIZZ etc returns... $ use this?
 // cant get the FIZZBUZZ function working, AND condition isnt right?
 
-for (let a = 1; a <= 100; a++) {
-    if ((a%3 == 0) && (a%5 ==0)) {
-        console.log();
-        console.log(a + " IS A FIZZBUZZ");
-        console.log();
+// for (let a = 1; a <= 100; a++) {
+//     if ((a%3 == 0) && (a%5 ==0)) {
+//         console.log();
+//         console.log(a + " IS A FIZZBUZZ");
+//         console.log();
         
-}
-    else if (a%3 == 0)    {
-        console.log();
-        console.log(a + " Is a FIZZY BOY");
-        console.log();
-}   
-    else if (a%5 == 0)  {
-        console.log();    
-        console.log(a + " Is a BUZZY BARSTEWARD");
-        console.log();
-}
-         else {
-                console.log(a)
-            } 
+// }
+//     else if (a%3 == 0)    {
+//         console.log();
+//         console.log(a + " Is a FIZZY BOY");
+//         console.log();
+// }   
+//     else if (a%5 == 0)  {
+//         console.log();    
+//         console.log(a + " Is a BUZZY BARSTEWARD");
+//         console.log();
+// }
+//          else {
+//                 console.log(a)
+//             } 
 
-    }
+//     }
 
 // DAVROS SOLUTION
 // let num = 1;
