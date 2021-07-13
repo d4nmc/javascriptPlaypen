@@ -276,22 +276,23 @@
 //                      for each multiple of 3 it prints fizz
 //                      for each multiple of 5 it prints buzz
 // cant get (a) to show in any of FIZZ etc returns... $ use this?
+// cant get the FIZZBUZZ function working, AND condition isnt right?
 
 for (let a = 1; a <= 100; a++) {
-    if (a%3 == 0) && (a%5 ==0) {
+    if (a%3 == 0 && a%5 ==0) {
         console.log(a);
         console.log( "IS A FIZZBUZZ");
         
 }
-        else if (a%3 == 0)    {
-            console.log(a);
-        console.log("Is a FIZZY BUGGER");
+    else if (a%3 == 0)    {
+        console.log(a);
+        console.log("Is a FIZZY BOY");
 }   
-        else if (a%5 == 0)  {
+    else if (a%5 == 0)  {
             console.log(a);
             console.log("Is a BUZZY BARSTEWARD");
 }
-            else {
+         else {
                 console.log(a)
             } 
 
