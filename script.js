@@ -327,3 +327,117 @@
   
     
 //     }
+
+// DEMONSTRATION OF LOOPS
+// set i to equal 2
+// do something if i is equal to or less than 6
+
+// print i + 1 = 3
+
+// increment i by 2, so i = 4
+// i IS <= 6 so
+
+// print i + 1 = 5
+
+// increments i by 2, so i= 6
+// i IS <= 6 so
+
+// print i + 1 = 7
+
+// increment i by 2, so i = 8
+// i > 6, so it will stop
+
+
+// WHILE LOOP
+let i = 2;
+
+// while (condition == true) {}
+while( i <= 6 ) {
+    console.log(i + 1);
+    i = i + 2;
+}
+
+// FOR LOOP
+
+for(let i = 2; i <= 6; i = i + 2) {
+    console.log(i+1);
+}
+
+
+// CONDITIONALS
+
+// TRUTHY and FALSEY
+
+// FALSEY
+
+// false - false
+// 0 - zero
+// `` - an empty string
+// undefined
+// null - empty
+// NaN - not a number
+
+// everything else is TRUTHY
+
+// IF (ELSE and ELSE IF)
+// check a condition
+// run a code block if it is met
+
+// let a = 2;
+
+// if (a == 0){
+//     console.log(`sunshine`);
+// } else if (a != 2) {
+//     console.log(`moonlight`);
+// } else {
+//     console.log(`boogie`);
+// }
+
+// TERNARY IF statment
+// shorthand version of and IF ELSE statement
+
+// let x = 2;
+
+// if (x == 2){
+//     console.log(`x is 2`);
+// } else {
+//     console.log(`x is not 2`);
+// }
+
+// let y = 2;
+
+// y==2 ? console.log(`y is 2`) : console.log(`y is not 2`);
+
+
+// EQUALITY and TYPE
+
+// type is mutable
+// we can compare different data types with the same value
+
+// 1 == `1` ? console.log(true) : console.log(false);
+
+// JavaScript is mutating the TYPE so that ONE equals ONE
+// it is only checking the VALUE
+
+// STRICTLY EQUAL OPERATOR
+// ===
+// checks the TYPE and the VALUE
+
+// 1 === `1` ? console.log(true) : console.log(false);
+
+//  EXERCISE 3
+
+// Create a IF statement that satifies the following:
+
+//     Declare a variable age
+//     Write a condition that checks if age is between 18 AND 65
+//     Return a value in each case where the condition is satisfied and not satisfied.
+//     Extra: Consider the case where age is less than 18 - return 'underage'
+
+//      use FIZZBUZZ!!!!
+
+let age = 35;
+
+if ((18 => age) && (65 <= age)){
+    console.log("You can have a mortgage!");
+} 
