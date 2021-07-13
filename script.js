@@ -231,11 +231,20 @@ switch (day) {
     console.log('Nobody likes today')
     break;
   case 2:  
+  console.log(`It's Tuesday`);
+  console.log('Almost as bad as a Monday')
+  break;
   case 3:
+    console.log(`It's Wednesday`);
+    console.log('Happy Hump Day')
+    break;
   case 4:
+    console.log(`It's Thursday`);
+    console.log('Weekend loading...')
+    break;
   case 5:
-    console.log(`It's a weekday`);
-    console.log('Another day another dollar')
+    console.log(`It's Friday`);
+    console.log('Gooo Mufassa!!!')
     break;
   default:
     console.log(`That's not a day!`);
