@@ -349,19 +349,19 @@
 
 
 // WHILE LOOP
-let i = 2;
+// let i = 2;
 
 // while (condition == true) {}
-while( i <= 6 ) {
-    console.log(i + 1);
-    i = i + 2;
-}
+// while( i <= 6 ) {
+//     console.log(i + 1);
+//     i = i + 2;
+// }
 
 // FOR LOOP
 
-for(let i = 2; i <= 6; i = i + 2) {
-    console.log(i+1);
-}
+// for(let i = 2; i <= 6; i = i + 2) {
+//     console.log(i+1);
+// }
 
 
 // CONDITIONALS
@@ -436,8 +436,35 @@ for(let i = 2; i <= 6; i = i + 2) {
 
 //      use FIZZBUZZ!!!!
 
-let age = 35;
+// let age = 67;
 
-if ((18 => age) && (65 <= age)){
-    console.log("You can have a mortgage!");
-} 
+// if ((age => 18) && (age <= 65)){
+//     console.log("Your age of " + (age) + " is acceptable, you can have a mortgage!");
+//     } else if (age <= 18) {
+//         console.log("You are only " + (age) + " and need to save for longer");
+//     } else {
+//         console.log("To old I am afraid, we can not offer you a mortgage")
+//     }
+
+// EXERCISE 4
+
+// Using ternary-if syntax, write code that checks if age is above 50.
+
+let x = 51;
+let x == 50 ? console.log(`x = 50`) :console.log(`x is not 50`);
+
+
+
+// let x = 2;
+
+// if (x == 2){
+//     console.log(`x is 2`);
+// } else {
+//     console.log(`x is not 2`);
+// }
+
+// let y = 2;
+
+// y==2 ? console.log(`y is 2`) : console.log(`y is not 2`);
+
+// EXERCISE FOR FUN - MAKE HOT DOG NOT DOG 
