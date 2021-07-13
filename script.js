@@ -574,3 +574,6 @@ let lordVader = {
 
 console.log(lordVader);
 
+let admiralThrawn = { allegiance: "Empire", weapon: "Light Sabre", sith: true };
+
+console.log(admiralThrawn);
