@@ -251,20 +251,45 @@
 //     break;
 // }
 
-let now = new Date(); 
-let day = now.getDay();
-switch (day) {
-  case 0:
-    console.log(`It's Sunday`);
-    break;
-  case 6:
-    console.log(`It's Saturday`);
-    break;
-  case 1:
-  case 2:  
-  case 3:
-  case 4:
-  case 5:
-    console.log(`Still a weekday homie so KEEP WORKING!`);
-    break;
- }
+// let now = new Date(); 
+// let day = now.getDay();
+// switch (day) {
+//   case 0:
+//     console.log(`It's Sunday`);
+//     break;
+//   case 6:
+//     console.log(`It's Saturday`);
+//     break;
+//   case 1:
+//   case 2:  
+//   case 3:
+//   case 4:
+//   case 5:
+//     console.log(`Still a weekday homie so KEEP WORKING!`);
+//     break;
+//  }
+
+// EXERCISE FIZZBUZZ
+
+// Write a program which:
+//                      prints no.s 1 to 100
+//                      for each multiple of 3 it prints fizz
+//                      for each multiple of 5 it prints buzz
+// cant get (a) to show in any of FIZZ etc returns... $ use this?
+
+for (let a = 1; a <= 100; a++) {
+    if (a%3 == 0,  a%5 ==0) {
+        return $a;
+        console.log(a " THIS IS FIZZBUZZ");
+}
+        else if (a%3 == 0)    {
+        console.log(" is a FIZZY BUGGER");
+}   
+        else if (a%5 == 0)  {
+            console.log(" is a BUZZY BARSTEWARD");
+}
+            else {
+                console.log(a)
+            } 
+
+    }
