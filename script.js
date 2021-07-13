@@ -161,12 +161,17 @@
 
 // EXERCISE 1 
 // CHANGED <= to != so it only counts to 200 rather than 201 like in the example
+// create this same thing with a for loop
 
 // let a = 100;
 // while (a != 200) {
 //   a++;
 //   console.log(`a = ${a}`);
 // }
+
+for (let a = 100; a <= 200; a++) {
+        console.log(`A is = to the number ${a} so keep counting!`);
+  }
 
 // EXERCISE 2
 // try to solve it with a for loop
@@ -181,13 +186,13 @@
 //   a++;
 // }
 
-for (let a = 100; a <= 200; a++) {
-    if (a%2 == 0) {
-        console.log("-");
-    }else {
-            console.log("*");
-        }
-    }
+// for (let a = 100; a <= 200; a++) {
+//     if (a%2 == 0) {
+//         console.log("-");
+//     }else {
+//             console.log("*");
+//         }
+//     }
     
 
 
@@ -199,3 +204,6 @@ for (let a = 100; a <= 200; a++) {
 //       console.log(b);
 //     }
 //  }  
+
+//EXERCISE 4
+// Do for loops for all existing loop examples
