@@ -171,15 +171,25 @@
 // EXERCISE 2
 // try to solve it with a for loop
 
-let a = 100;
-while (a <= 200) {
-  if (a % 2 == 0) {
-    console.log("-");
-  } else {
-    console.log("*");
-  }
-  a++;
-}
+// let a = 100;
+// while (a <= 200) {
+//   if (a % 2 == 0) {
+//     console.log("-");
+//   } else {
+//     console.log("*");
+//   }
+//   a++;
+// }
+
+for (let a = 100; a <= 200; a++) {
+    if (a%2 == 0) {
+        console.log("-");
+    }else {
+            console.log("*");
+        }
+    }
+    
+
 
 // EXERCISE 3
 // 
