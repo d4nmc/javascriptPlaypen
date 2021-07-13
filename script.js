@@ -162,6 +162,7 @@
 // EXERCISE 1 
 // CHANGED <= to != so it only counts to 200 rather than 201 like in the example
 // create this same thing with a for loop
+// come back and try to add a conition that when the count is met it displays a final message "you have reached the end of the count"
 
 // let a = 100;
 // while (a != 200) {
@@ -170,9 +171,12 @@
 // }
 
 for (let a = 100; a <= 200; a++) {
-        console.log(`A is = to the number ${a} so keep counting!`);
+    if (a != 201) {    
+    console.log(`A is = to the number ${a} so keep counting!`);
+}else {
+        console.log('You have reached the last number');
   }
-
+}
 // EXERCISE 2
 // try to solve it with a for loop
 
