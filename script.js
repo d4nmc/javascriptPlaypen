@@ -38,26 +38,26 @@
 // Primatives 
 
 // boolean, number, string, bigint, symbol, null, undefined
-let aBoolean = true;
-let aNumber = 3.2;
-let aString = `text`;
-let aBigInt = 9999999999999999n; // numeric literal <- helps with big numbers
-let aBrokenBigInt = 9999999999999999;
-let aSymbol = Symbol(`description in here`); // SYMBOLS are unique
-let aNull = null;
-let anUndefined;
+// let aBoolean = true;
+// let aNumber = 3.2;
+// let aString = `text`;
+// let aBigInt = 9999999999999999n; // numeric literal <- helps with big numbers
+// let aBrokenBigInt = 9999999999999999;
+// let aSymbol = Symbol(`description in here`); // SYMBOLS are unique
+// let aNull = null;
+// let anUndefined;
 
-console.log(aBigInt);
-console.log(aBrokenBigInt);
+// console.log(aBigInt);
+// console.log(aBrokenBigInt);
 
 // null is EMPTY
 // undefined has not been initialised (no real value)
 
-console.log(anUndefined);
-console.log(typeof(anUndefined));
+// console.log(anUndefined);
+// console.log(typeof(anUndefined));
 
-console.log(aNull);
-console.log(typeof(aNull));
+// console.log(aNull);
+// console.log(typeof(aNull));
 
 // Objects
 
@@ -65,12 +65,12 @@ console.log(typeof(aNull));
 // mutable
 // key : value pairs
 
-let myObject = {
-    key : `value`,
-    anotherKey : 12345
-}
+// let myObject = {
+//     key : `value`,
+//     anotherKey : 12345
+// }
 
-console.log(myObject);
+// console.log(myObject);
 
 // STRINGS 
 // can be mutated in two main ways
@@ -79,19 +79,19 @@ console.log(myObject);
 // joining strings end to end
 // `a` + `b` = `ab`
 // quite memory intensive -> you have to store multiple strings at once.
-let string1 = `41 * 12 = `
-let result = 41 * 12;
-console.log(string1 + result);
+// let string1 = `41 * 12 = `
+// let result = 41 * 12;
+// console.log(string1 + result);
 
 // STRING INTERPOLATION
 // uses one string
 // uses string literals which contain placeholders
 // these a called `template literals`
-let string2 = `41 * 12 = ${41 * 12}`;
-console.log(string2);
+// let string2 = `41 * 12 = ${41 * 12}`;
+// console.log(string2);
 
 let totalMoney = 10000;
-let moneyPaidSoFar = 2348;
+let moneyPaidSoFar = 9650;
 let totalLeftToPay = totalMoney - moneyPaidSoFar;
 
-console.log(`The total bill is £${totalMoney} the remaining amount of money to be paid is £${totalLeftToPay}`);
+console.log(`You owe me £${totalMoney}, you have £${totalLeftToPay} left to pay you God Damn Loch Ness Monster!`);
