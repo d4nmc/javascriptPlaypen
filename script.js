@@ -278,15 +278,18 @@
 // cant get (a) to show in any of FIZZ etc returns... $ use this?
 
 for (let a = 1; a <= 100; a++) {
-    if (a%3 == 0,  a%5 ==0) {
-        return $a;
-        console.log(a " THIS IS FIZZBUZZ");
+    if (a%3 == 0) && (a%5 ==0) {
+        console.log(a);
+        console.log( "IS A FIZZBUZZ");
+        
 }
         else if (a%3 == 0)    {
-        console.log(" is a FIZZY BUGGER");
+            console.log(a);
+        console.log("Is a FIZZY BUGGER");
 }   
         else if (a%5 == 0)  {
-            console.log(" is a BUZZY BARSTEWARD");
+            console.log(a);
+            console.log("Is a BUZZY BARSTEWARD");
 }
             else {
                 console.log(a)
