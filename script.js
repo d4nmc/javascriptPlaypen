@@ -217,6 +217,40 @@
 //     Omit a break statement if it is a weekday, until the last day
 //     Use a default case to handle an invalid range.
 
+// let now = new Date(); 
+// let day = now.getDay();
+// switch (day) {
+//   case 0:
+//     console.log(`It's Sunday`);
+//     break;
+//   case 6:
+//     console.log(`It's Saturday`);
+//     break;
+//   case 1:
+//     console.log(`It's Monday`);
+//     console.log('Nobody likes today')
+//     break;
+//   case 2:  
+//   console.log(`It's Tuesday`);
+//   console.log('Almost as bad as a Monday')
+//     break;
+//   case 3:
+//     console.log(`It's Wednesday`);
+//     console.log('Happy Hump Day')
+//     break;
+//   case 4:
+//     console.log(`It's Thursday`);
+//     console.log('Weekend loading...')
+//     break;
+//   case 5:
+//     console.log(`It's Friday`);
+//     console.log('Gooo Mufassa!!!')
+//     break;
+//   default:
+//     console.log(`That's not a day!`);
+//     break;
+// }
+
 let now = new Date(); 
 let day = now.getDay();
 switch (day) {
@@ -227,26 +261,10 @@ switch (day) {
     console.log(`It's Saturday`);
     break;
   case 1:
-    console.log(`It's Monday`);
-    console.log('Nobody likes today')
-    break;
   case 2:  
-  console.log(`It's Tuesday`);
-  console.log('Almost as bad as a Monday')
-  break;
   case 3:
-    console.log(`It's Wednesday`);
-    console.log('Happy Hump Day')
-    break;
   case 4:
-    console.log(`It's Thursday`);
-    console.log('Weekend loading...')
-    break;
   case 5:
-    console.log(`It's Friday`);
-    console.log('Gooo Mufassa!!!')
+    console.log(`Still a weekday homie so KEEP WORKING!`);
     break;
-  default:
-    console.log(`That's not a day!`);
-    break;
-}
+ }
