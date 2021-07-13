@@ -542,18 +542,35 @@
 // JavaScript Object Notation
 // you can use this in JavaScript with no issues
 
-let newJSON = {
-    "name" : "Cameron",
-    "age" : 28
-}
+// let newJSON = {
+//     "name" : "Cameron",
+//     "age" : 28
+// }
 
 // to convert JSON to different DATA TYPES
 
 // JSON to STRING
-let str = JSON.stringify(newJSON);
-console.log(str);
+// let str = JSON.stringify(newJSON);
+// console.log(str);
 
 // STRING to JSON
-let my = JSON.parse(str);
-console.log(my);
-console.log(my.name);
+// let my = JSON.parse(str);
+// console.log(my);
+// console.log(my.name);
+
+// Exercises
+
+//     Create an object called darthVader with the keys:values 
+//              allegiance:empire
+//              weapon:lightsabre
+//              sith: true  
+//              log darthVader
+
+let lordVader = {
+    allegiance: "Empire",
+    weapon: "Light Sabre",
+    sith: true
+};
+
+console.log(lordVader);
+
