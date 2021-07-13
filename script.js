@@ -103,56 +103,89 @@
 // use a counter
 // run until a condition is met
 
-for(let i = 0; i < 10; i++) {
-    console.log(`i = ${i}`);
-//  console.log(`i = ` + i);
+// for(let i = 0; i < 10; i++) {
+//     console.log(`i = ${i}`);
+// //  console.log(`i = ` + i);
+// }
+
+// // WHILE
+// // works with booleans (TRUE or FALSE)
+// // run while the condition is true
+
+// let condition = true;
+// let increment = 0;
+
+// while(condition) {
+
+//     console.log(`increment me`);
+//     increment++;
+
+//     if (increment == 3) {
+//         condition = false;
+//     }
+
+// }
+
+// // DO-WHILE
+// // like a while loop
+// // but always runs at least once
+// let a = false;
+
+// do {
+//     console.log(`run forest run`);
+// } while(a);
+
+// // SWITCH CASES
+
+// // run until a BREAK or RETURN
+// // can be more effective than large if-else statements
+
+// let num = 1;
+
+// switch(num) {
+//     case 0:
+//         console.log(`zero is zero`);
+//         break;
+//     case 1:
+//         console.log(`we're at one`);
+//     case 4:
+//         console.log(`now it's four`);
+//     case 10:
+//         console.log(`we've made it to ten!`)
+//         break;
+//     default:
+//         console.log(`not sure what you are doing here`)
+// }
+
+// ITERATION
+
+// EXERCISE 1 
+// CHANGED <= to != so it only counts to 200 rather than 201 like in the example
+
+// let a = 100;
+// while (a != 200) {
+//   a++;
+//   console.log(`a = ${a}`);
+// }
+
+// EXERCISE 2
+// try to solve it with a for loop
+
+let a = 100;
+while (a <= 200) {
+  if (a % 2 == 0) {
+    console.log("-");
+  } else {
+    console.log("*");
+  }
+  a++;
 }
 
-// WHILE
-// works with booleans (TRUE or FALSE)
-// run while the condition is true
+// EXERCISE 3
+// 
 
-let condition = true;
-let increment = 0;
-
-while(condition) {
-
-    console.log(`increment me`);
-    increment++;
-
-    if (increment == 3) {
-        condition = false;
-    }
-
-}
-
-// DO-WHILE
-// like a while loop
-// but always runs at least once
-let a = false;
-
-do {
-    console.log(`run forest run`);
-} while(a);
-
-// SWITCH CASES
-
-// run until a BREAK or RETURN
-// can be more effective than large if-else statements
-
-let num = 1;
-
-switch(num) {
-    case 0:
-        console.log(`zero is zero`);
-        break;
-    case 1:
-        console.log(`we're at one`);
-    case 4:
-        console.log(`now it's four`);
-    case 10:
-        console.log(`we've made it to ten!`)
-        break;
-    default:
-        console.log(`not sure what you are doing here`)
-}
+// for (let a = 0; a < 10; a++) {
+//     for (let b = 1; b <= 10; b++) {
+//       console.log(b);
+//     }
+//  }  
