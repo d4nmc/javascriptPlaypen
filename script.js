@@ -450,10 +450,8 @@
 
 // Using ternary-if syntax, write code that checks if age is above 50.
 
-let x = 51;
-let x == 50 ? console.log(`x = 50`) :console.log(`x is not 50`);
-
-
+let age = 51;
+let result = 50 ? console.log(`Over 50`) :console.log(`Under 50`);
 
 // let x = 2;
 
