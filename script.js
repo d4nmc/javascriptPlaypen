@@ -279,9 +279,9 @@
 // cant get the FIZZBUZZ function working, AND condition isnt right?
 
 for (let a = 1; a <= 100; a++) {
-    if (a%3 == 0 && a%5 ==0) {
+    if ((a%3 == 0) && (a%5 ==0)) {
         console.log(a);
-        console.log( "IS A FIZZBUZZ");
+        console.log("IS A FIZZBUZZ");
         
 }
     else if (a%3 == 0)    {
